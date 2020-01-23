@@ -1,0 +1,23 @@
+{
+  "links": {
+    "github": "https://github.com/rooxie",
+    "linkedin": "https://www.linkedin.com/in/romanderlemenko/",
+    "email": "mailto:romanderlemenko@gmail.com",
+    "phone": "tel:+380995495321"
+  },
+  "content": {
+    "hero": {
+      "title": "Roman Derlemenko",
+      "intro": "Hi! My name is Roman. I'm a software developer based in Kiev, Ukraine.",
+      "professional": "I code primarily in PHP and JavaScript, but never afraid to get my hands dirty exploring all kinds of new tech, whether it be a new language, programming paradigm or anything related to the web.",
+      "personal": "I'm interested in tech, psychology, philosophy and linguistics. Love learning new human languages and intolerant of stagnation.",
+      "links": {
+        "github": "https://github.com/rooxie",
+        "linkedin": "https://www.linkedin.com/in/romanderlemenko/",
+        "email": "mailto:romanderlemenko@gmail.com",
+        "phone": "tel:+380995495321",
+        "photo": "https://i.postimg.cc/J0ktcVJ1/romanderlemenko.png"
+      }
+    }
+  }
+}

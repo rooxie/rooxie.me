@@ -1,0 +1,15 @@
+.Header.navbar {
+    height: 4rem;
+    padding: 1rem;
+    background-color: #000000;
+}
+
+.Header .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.Header .nav-item a {
+    font-size: 0.9rem;
+    color: black;
+}

@@ -1,0 +1,34 @@
+li {
+  list-style-type: square;
+}
+
+.inactive {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.bg-black-text-white {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.bg-red-text-white {
+  background-color: #ea4335;
+  color: #ffffff;
+}
+
+.link-black {
+  color: #000000;
+}
+
+.link-black:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.horizontal-padding {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}

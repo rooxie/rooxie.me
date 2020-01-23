@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Fira Sans', serif;
+  font-size: 1.7rem;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+}
