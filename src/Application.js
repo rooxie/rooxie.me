@@ -1,36 +1,22 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route
-} from "react-router-dom";
 import Header from "./Components/Header/Header";
 import './App.css'
-import Footer from "./Components/Footer/Footer";
-import Main from "./Pages/Main";
-import CV from "./Pages/CV";
+// import Footer from "./Components/Footer/Footer";
+import Introduction from "./Parts/Introduction";
+import ProfessionalExperience from "./Parts/ProfessionalExperience";
 
-function App() {
+function Application() {
   return (
       <React.Fragment>
-          <Header/>
+          <Header/>                     <div className="br"/>
           <main role="main" className="container">
-              <Router>
-                  <Switch>
-                      <Route exact path="/">
-                          <Main/>
-                      </Route>
-                  </Switch>
-                  <Switch>
-                      <Route exact path="/cv">
-                          <CV/>
-                      </Route>
-                  </Switch>
-              </Router>
-              <Footer/>
+              <Introduction/>           <div className="br"/>
+              <ProfessionalExperience/> <div className="br"/>
+              {/*<Footer/>*/}
           </main>
+
       </React.Fragment>
   );
 }
 
-export default App;
+export default Application;

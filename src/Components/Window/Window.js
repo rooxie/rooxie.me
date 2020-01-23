@@ -1,52 +1,22 @@
 import React from 'react';
-import './Hero.css';
-import { Jumbotron, Button, Card, CardBody, CardHeader } from "reactstrap";
-import { content } from '../../content';
+import './Window.css';
+import {
+    Card as BootstrapCard,
+    CardBody as BootstrapCardBody,
+    CardHeader as BootstrapCardHeader
+} from "reactstrap";
 
-function Window() {
-
-
-
+function Window(props) {
     return (
-        <Card className="Hero">
-            <CardHeader className="inactive">
-                <span>
-                    Introduction
-                </span>
-                <span>
-                    <i className="fa fa-times-circle" aria-hidden="true"/>
-                </span>
-            </CardHeader>
-            <CardBody>
-                <div className="row">
-                    <div className="col-md-4 card-col-left">
-                        <img id="photo" alt={content.hero.title} src={content.hero.links.photo}/>
-                    </div>
-                    <div className="col-md-8 card-col-right">
-                        <div className="contents">
-                            <h4>{content.hero.title}</h4>
-                            <p className="bg-black-text-white">{content.hero.intro}</p>
-                            <p className="bg-black-text-white horizontal-padding">{content.hero.professional}</p>
-                            <p className="bg-black-text-white horizontal-padding">{content.hero.personal}</p>
-                            <div className="links">
-                                <Button tag="a" color="lg" href={content.hero.links.github}>
-                                    <i className="fa fa-github" aria-hidden="true"/>
-                                </Button>
-                                <Button tag="a" color="lg" href={content.hero.links.linkedin}>
-                                    <i className="fa fa-linkedin" aria-hidden="true"/>
-                                </Button>
-                                <Button tag="a" color="lg" href={content.hero.links.email}>
-                                    <i className="fa fa-envelope" aria-hidden="true"/>
-                                </Button>
-                                <Button tag="a" color="lg" href={content.hero.links.phone}>
-                                    <i className="fa fa-phone" aria-hidden="true"/>
-                                </Button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </CardBody>
-        </Card>
+        <BootstrapCard className="Window">
+            <BootstrapCardHeader className="inactive text-center">
+                <span>{props.title}</span>
+                <span><i className="fa fa-times-circle" aria-hidden="true"/></span>
+            </BootstrapCardHeader>
+            <BootstrapCardBody>
+                {props.children}
+            </BootstrapCardBody>
+        </BootstrapCard>
     );
 }
 

@@ -6,7 +6,7 @@
     "phone": "tel:+380995495321"
   },
   "content": {
-    "hero": {
+    "introduction": {
       "title": "Roman Derlemenko",
       "intro": "Hi! My name is Roman. I'm a software developer based in Kiev, Ukraine.",
       "professional": "I code primarily in PHP and JavaScript, but never afraid to get my hands dirty exploring all kinds of new tech, whether it be a new language, programming paradigm or anything related to the web.",
@@ -18,6 +18,115 @@
         "phone": "tel:+380995495321",
         "photo": "https://i.postimg.cc/J0ktcVJ1/romanderlemenko.png"
       }
+    },
+    "experience": {
+      "profile": {
+        "title": "Profile",
+        "paragraphs": [
+          "Motivated and enthusiastic PHP developer with an extensive commercial experience, eager to learn and improve constantly.",
+          "I am highly biased towards OOP paradigm, using the majority of common design patterns and writing clean, tested and well documented code. Having experience working with several major MVC frameworks, I tend to stick to PSR standards and follow other community conventions and guidelines.",
+          "I dedicate the majority of my free time writing personal projects, exploring new technologies and reading programming related literature."
+        ]
+      },
+      "career": {
+        "title": "Career Summary",
+        "jobs": [
+          {
+            "link": "https://webbylab.com/en",
+            "company": "WebbyLab",
+            "years": "Aug 2016 - Jul 2019",
+            "outline": "Developing and maintaining complex and scalable web and mobile applications with responsibilities ranging from creating back-ends from scratch and setting up servers and containers to writing and designing the front-end.",
+            "responsibilities": [
+              "developing APIs",
+              "developing web applications from scratch",
+              "developing RESTful web services",
+              "developing web client-side applications",
+              "developing microservices",
+              "developing data synchronization and generation scripts",
+              "integrating with third-party services",
+              "integrating with online payment systems",
+              "designing schemas and working with relational databases",
+              "refactoring and optimizing existing code base",
+              "writing unit and functional tests",
+              "setting up nginx, PHP-FPM, Ansible, SSL, AWS, Docker and cron",
+              "documenting the APIs",
+              "deploying applications and setting up continuous integration",
+              "working in a Scrum team"
+            ],
+            "skills": [
+              "PHP", "JavaScript", "MySQL", "PostgreSQL", "nginx", "Memcached", "Slim", "Symfony", "Laravel","jQuery", "React", "Propel", "PHPUnit", "Ansible", "Linux", "Bash", "DigitalOcean"
+            ]
+          },
+          {
+            "link": "https://www.zingle.com/",
+            "company": "Zingle",
+            "years": "Oct 2018 - Jul 2019",
+            "outline": "Developing new features for a Laravel powered back-end application.",
+            "responsibilities": [
+              "developing APIs",
+              "integrating with third-party services",
+              "working with relational databases",
+              "writing unit tests",
+              "documenting the APIs",
+              "working in a Scrum team"
+            ],
+            "skills": [
+              "PHP", "MySQL", "Redis", "ElasticSearch", "Laravel", "Doctrine", "PHPUnit", "REST", "Linux", "Docker"
+            ]
+          },
+          {
+            "link": "https://www.cloudbeds.com/",
+            "company": "Cloudbeds",
+            "years": "May 2017 - Jun 2018",
+            "outline": "Developing and maintaining hospitality management system and it's infrastructure.",
+            "responsibilities": [
+              "developing APIs",
+              "developing the front-end",
+              "working with AWS infrastructure",
+              "writing BDD tests",
+              "documenting the APIs",
+              "working in a Scrum team"
+            ],
+            "skills": [
+              "PHP", "JavaScript", "MySQL", "Redis", "CodeIgniter", "jQuery", "AWS", "PHPUnit", "Behat", "Linux", "Docker"
+            ]
+          }
+        ]
+      },
+      "education": {
+        "title": "Education",
+        "years": "2012 - 2016",
+        "university": "Kyiv National Linguistic University",
+        "degree": "Bachelor, Japanese Language"
+      },
+      "languages": {
+        "title": "Langugaes",
+        "languages": [
+          {
+            "name": "English",
+            "skill": "Advanced"
+          },
+          {
+            "name": "German",
+            "skill": "A1"
+          },
+          {
+            "name": "Japanese",
+            "skill": "N4"
+          },
+          {
+            "name": "Russian",
+            "skill": "Native"
+          },
+          {
+            "name": "Ukrainian",
+            "skill": "Native"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "text": "Copyright © 2020 Roman Derlemenko. All Rights Reserved."
     }
   }
 }

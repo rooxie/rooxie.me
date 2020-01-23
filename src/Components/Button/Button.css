@@ -1,0 +1,28 @@
+.Button.btn-lg {
+    color: #000000;
+    background-color: #fefefe;
+
+    border: solid 1px #c2c8ce;
+
+    border-radius: .3rem;
+
+
+    margin-right: .1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+
+    min-width: 38px;
+}
+
+.Button.btn-lg:hover {
+    color: #ffffff;
+    background-color: #e95420;
+}
+
+.Button.btn-lg:active {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}

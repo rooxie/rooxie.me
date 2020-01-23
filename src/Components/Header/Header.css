@@ -1,15 +1,18 @@
 .Header.navbar {
-    height: 4rem;
-    padding: 1rem;
-    background-color: #000000;
+    /*background-color: #000000;*/
+    background-color: #1d1d1d;
 }
 
 .Header .navbar-brand {
-    color: white;
+    color: #ebebeb;
     font-weight: bold;
 }
 
 .Header .nav-item a {
     font-size: 0.9rem;
-    color: black;
+    color: #ebebeb;
+}
+
+.Header a {
+    color: #ebebeb !important;
 }

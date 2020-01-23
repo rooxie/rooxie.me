@@ -1,10 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Fira Sans', serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', serif;
   font-size: 1.7rem;
   font-kerning: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
+  background: rgb(108,33,100);
+  background: linear-gradient(45deg, rgba(108,33,100,1) 0%, rgba(233,84,32,1) 100%);
+
 }

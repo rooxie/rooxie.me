@@ -1,12 +1,13 @@
 import React from 'react';
 import { Button as BootstrapButton } from "reactstrap";
+import './Button.css'
 
-function Beda(props) {
+function Button(props) {
     return (
-        <BootstrapButton tag="a" color="lg">
+        <BootstrapButton className="Button" tag="a" color="lg" href={props.href}>
             {props.children}
         </BootstrapButton>
     );
 }
 
-export default Beda;
+export default Button;
