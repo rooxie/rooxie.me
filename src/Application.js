@@ -1,9 +1,8 @@
 import React from 'react';
-import Header from "./Components/Header/Header";
-import './App.css'
-// import Footer from "./Components/Footer/Footer";
+import Header from "./Parts/Header";
 import Introduction from "./Parts/Introduction";
 import ProfessionalExperience from "./Parts/ProfessionalExperience";
+import './App.css'
 
 function Application() {
   return (
@@ -12,9 +11,7 @@ function Application() {
           <main role="main" className="container">
               <Introduction/>           <div className="br"/>
               <ProfessionalExperience/> <div className="br"/>
-              {/*<Footer/>*/}
           </main>
-
       </React.Fragment>
   );
 }
