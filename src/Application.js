@@ -7,10 +7,13 @@ import './App.css'
 function Application() {
   return (
       <React.Fragment>
-          <Header/>                     <div className="br"/>
-          <main role="main" className="container">
-              <Introduction/>           <div className="br"/>
-              <ProfessionalExperience/> <div className="br"/>
+          <Header/>
+          <div className="br"/>
+          <main role="main" className="container sticky">
+              <Introduction/>
+              <div className="br"/>
+              <ProfessionalExperience/>
+              <div className="br"/>
           </main>
       </React.Fragment>
   );

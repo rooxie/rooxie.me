@@ -5,7 +5,7 @@ import Button from "../Components/Button/Button";
 
 function Introduction() {
     return (
-        <Window title="Introduction">
+        <Window title={content.introduction.window}>
             <div className="row">
                 <div className="col-md-4 card-col-left">
                     <img id="photo" alt={content.introduction.title} src={content.introduction.links.photo}/>

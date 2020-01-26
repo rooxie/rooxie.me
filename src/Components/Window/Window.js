@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Window.css';
 import {
     Card as BootstrapCard,
@@ -7,11 +7,17 @@ import {
 } from "reactstrap";
 
 function Window(props) {
+    const [isInvisible, setIsInvisible] = useState(false);
+    const hide = () => {
+        setIsInvisible(true);
+        setTimeout(() => setIsInvisible(false), 500); // TODO: Remove after implementing task-bar.
+    };
+
     return (
-        <BootstrapCard className="Window">
+        <BootstrapCard className="Window" hidden={isInvisible}>
             <BootstrapCardHeader className="inactive text-center">
                 <span>{props.title}</span>
-                <span><i className="fa fa-times-circle" aria-hidden="true"/></span>
+                <span><i className="fa fa-times-circle" aria-hidden="true" onClick={hide}/></span>
             </BootstrapCardHeader>
             <BootstrapCardBody>
                 {props.children}
