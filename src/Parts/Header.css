@@ -1,0 +1,43 @@
+.Header.navbar {
+     background-color: rgba(29, 29, 29, .8);
+     -webkit-box-shadow: 0 0 20px -1px rgba(0, 0, 0, .5);
+     -moz-box-shadow: 0 0 20px -1px rgba(0, 0, 0, .5);
+     box-shadow: 0 0 20px -1px rgba(0, 0, 0, .5);
+     padding-top: .1rem;
+     padding-bottom: .1rem;
+ }
+
+.Header .navbar-brand {
+    color: #ebebeb;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Header .nav-item a {
+    font-size: 0.9rem;
+    color: #ebebeb;
+}
+
+.Header a {
+    color: #ebebeb !important;
+    text-decoration: none;
+}
+
+.Header li {
+    list-style-type: none;
+}
+
+.Header .row {
+    width: 100%;
+}
+
+.Header .dropdown-menu {
+    border: solid 1px #2b2929;
+    background-color: #ffffff;
+}
+
+.Header .dropdown-menu .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #e95420;
+}

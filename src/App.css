@@ -1,0 +1,32 @@
+body {
+  color: #3d3d3d;
+}
+
+li {
+  list-style-type: square;
+}
+
+.inactive {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+::selection {
+  background: #e95420;
+  color: #ffffff;
+}
+
+a {
+  color: #e95420;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.br {
+  margin-top: 1.5rem;
+}
